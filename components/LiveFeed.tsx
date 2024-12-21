@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { Avatar } from "@nextui-org/avatar"
 import { Card, CardContent, CardFooter, CardHeader } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { Heart, MessageCircle, Share2,Bookmark, Book } from 'lucide-react';
+import { Heart, MessageCircle, Share2,Bookmark } from 'lucide-react';
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover"
 
 const posts = [

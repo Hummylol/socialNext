@@ -16,8 +16,6 @@ const Profile: React.FC<ProfileProps> = ({ isOpen, onClose }) => {
   const [username, setUsername] = useState("johndoe");
   const [email, setEmail] = useState("johndoe@example.com");
   const [password, setPassword] = useState("");
-  const [followers, setFollowers] = useState(123);
-  const [following, setFollowing] = useState(45);
 
   const handleUpdate = () => {
     alert("Profile updated!");
@@ -48,11 +46,11 @@ const Profile: React.FC<ProfileProps> = ({ isOpen, onClose }) => {
               {/* Change Picture Button */}
               <div className="flex justify-center space-x-8 mt-2">
                   <div className="-mt-2 text-center">
-                    <p className="text-lg font-semibold">{followers}</p>
+                    <p className="text-lg font-semibold">36</p>
                     <p className="text-sm text-muted-foreground">Followers</p>
                   </div>
                   <div className="-mt-2 text-center">
-                    <p className="text-lg font-semibold">{following}</p>
+                    <p className="text-lg font-semibold">36</p>
                     <p className="text-sm text-muted-foreground">Following</p>
                   </div>
                 </div>
